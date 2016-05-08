@@ -6,7 +6,7 @@ Saferpay Omnipay gateway
 
 [Saferpay](http://saferpay.com/) gateway for awesome [Omnipay](https://github.com/adrianmacneil/omnipay) library.
 
->> Warning: Only works with omnipay 1.* versions for the moment
+>> Warning: Only works with omnipay 2.* versions for the moment
 
 #### Installation
 
@@ -15,7 +15,7 @@ To install, simply add it to your composer.json file:
 ```json
 {
     "require": {
-        "asci/omnipay-saferpay": "dev-master"
+        "eccore/omnipay-saferpay": "dev-master"
     }
 }
 ```
