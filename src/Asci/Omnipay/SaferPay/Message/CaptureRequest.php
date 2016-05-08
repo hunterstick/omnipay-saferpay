@@ -9,7 +9,11 @@ class CaptureRequest extends AbstractRequest
     public function getData()
     {
         $data = array('ACCOUNTID' => $this->getAccountId(), 'ID' => $this->getTransactionReference());
-
+        
+        if ($this->getTestMode()) {
+            $data['spPassword'] = '8e7Yn5yk';
+        }
+        
         return $data;
     }
 
