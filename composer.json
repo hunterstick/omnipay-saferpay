@@ -5,12 +5,6 @@
     "keywords": ["omnipay", "payment", "gateway", "saferpay", "provider"],
     "license": "Unlicense",
     "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "eccore",
-            "email": ""
-        }
-    ],
     "autoload": {
         "psr-0": { "eccore" : "src/" }
     },
