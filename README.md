@@ -6,7 +6,7 @@ Saferpay Omnipay gateway
 
 [Saferpay](http://saferpay.com/) gateway for awesome [Omnipay](https://github.com/adrianmacneil/omnipay) library.
 
->> Warning: Only works with omnipay 2.* versions for the moment
+>> Warning: Only works with omnipay 2.* versions only!
 
 #### Installation
 
