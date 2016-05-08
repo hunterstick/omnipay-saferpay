@@ -1,5 +1,5 @@
 {
-    "name": "asci/omnipay-saferpay",
+    "name": "eCreativePoland/omnipay-saferpay",
     "description": "Saferpay payment gateway for omnipay",
     "type": "omnipay-gateway",
     "keywords": ["omnipay", "payment", "gateway", "saferpay", "provider"],
@@ -7,12 +7,12 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Ismail Asci",
-            "email": "ismail.asci@gmail.com"
+            "name": "",
+            "email": ""
         }
     ],
     "autoload": {
-        "psr-0": { "Asci" : "src/" }
+        "psr-0": { "eCreativePoland" : "src/" }
     },
     "require": {
         "php": ">=5.3.2",
