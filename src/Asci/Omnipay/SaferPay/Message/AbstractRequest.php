@@ -1,6 +1,6 @@
 <?php
 
-namespace Asci\Omnipay\SaferPay\Message;
+namespace Omnipay\SaferPay\Message;
 
 abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 {

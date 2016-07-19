@@ -1,6 +1,6 @@
 <?php
 
-namespace Asci\Omnipay\SaferPay;
+namespace Omnipay\SaferPay;
 
 use Omnipay\Tests\GatewayTestCase;
 

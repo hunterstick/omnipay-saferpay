@@ -1,6 +1,6 @@
 <?php
 
-namespace Asci\Omnipay\SaferPay;
+namespace Omnipay\SaferPay;
 
 use Omnipay\Common\AbstractGateway;
 
@@ -110,12 +110,12 @@ class Gateway extends AbstractGateway
 
     public function authorize(array $parameters = array())
     {
-        return $this->createRequest('\Asci\Omnipay\SaferPay\Message\AuthorizeRequest', $parameters);
+        return $this->createRequest('\Omnipay\SaferPay\Message\AuthorizeRequest', $parameters);
     }
 
     public function completeAuthorize(array $parameters = array())
     {
-        return $this->createRequest('\Asci\Omnipay\SaferPay\Message\CompleteAuthorizeRequest', $parameters);
+        return $this->createRequest('\Omnipay\SaferPay\Message\CompleteAuthorizeRequest', $parameters);
     }
 
     public function purchase(array $parameters = array())
@@ -125,6 +125,6 @@ class Gateway extends AbstractGateway
 
     public function capture(array $parameters = array())
     {
-        return $this->createRequest('\Asci\Omnipay\SaferPay\Message\CaptureRequest', $parameters);
+        return $this->createRequest('\Omnipay\SaferPay\Message\CaptureRequest', $parameters);
     }
 }
